@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" tests="1" failures="0" time="35">
+    <testcase id="launchApp" name="launchApp" classname="launchApp" time="35" status="SUCCESS"/>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,33 @@
+appId: com.example.app_demo
+---
+- launchApp
+
+- startRecording: Login
+
+- tapOn:
+    text: "Correo Electrónico"
+    label: "Da clic en el campo correo"
+
+- inputText:
+    text: "admin"
+    label: "Ingresa el correo"
+
+- tapOn:
+    text: "Contraseña"
+    label: "Da clic en el campo contraseña"
+
+- inputText:
+    text: "admin"
+    label: "Ingresa la contraseña"
+
+- tapOn: 
+    text: "Iniciar Sesión"
+    label: "Da clic en Iniciar Sesión"
+
+- assertVisible:
+    label: "Se espera que se vea el campo nombre"
+    text: "Nombre"
+    enabled: true
+
+- stopRecording
+- stopApp
